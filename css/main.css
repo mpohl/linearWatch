@@ -97,13 +97,12 @@ textarea {
 
 
 .linearWatch ul{
-    display: inline-block;
-    float: left;
-    margin:0;
+    display: block;
+    margin:0 0 10px 0;
     padding:0;
 }
 .linearWatch ul li{
-    color: rgba(0, 0, 0, 0.0);
+    color: rgba(0, 0, 0, 0.1);
     list-style-type: none;
     margin:0;
     padding:0;
