@@ -94,8 +94,23 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.linearWatch {
+   /*rotate and mirror horizantal*/
+   transform: rotate(180deg) scale(-1, 1);
+   transform-origin: center;
+   /* width: 59px; */
+   /* height: 90px; */
+   /* overflow: hidden; */
+   display: inline-block;
+
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -30px;
+    margin-top: -45px;
 
 
+}
 .linearWatch ul{
     display: inline-block;
     float: left;

@@ -4,8 +4,8 @@ setInterval(function () {
 
 function update() {
    var currentdate = new Date();
-   var arrTime = [currentdate.getHours(),currentdate.getMinutes(),currentdate.getSeconds()]
-
+   var arrTime = [currentdate.getHours(),currentdate.getMinutes(),currentdate.getSeconds()];
+   //arrTime = [23,59,59];
    var i = 0;
    var d = 1;
    do{
