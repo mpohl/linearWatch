@@ -1,11 +1,11 @@
 setInterval(function () {
    update();
-}, 1000);
+}, 100);
 
 function update() {
    var currentdate = new Date();
-   var arrTime = [currentdate.getHours(),currentdate.getMinutes(),currentdate.getSeconds()]
-
+   var arrTime = [currentdate.getHours(),currentdate.getMinutes(),currentdate.getSeconds(),Math.floor(currentdate.getMilliseconds()/10)]
+console.log(arrTime.join());
    var i = 0;
    var d = 1;
    do{
