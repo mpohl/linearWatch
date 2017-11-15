@@ -21,12 +21,12 @@ function lightsOn(digit, lights) {
    if (lights) {
       var i = 1;
       do {
-         var $el = $('.linearWatch ul:nth-child(' + digit + ') li:nth-child(' + i + ')');
-         $el.addClass('active');
+         var $el = $(".linearWatch ul:nth-child(" + digit + ") li:nth-child(" + i + ")");
+         $el.addClass("active");
          i++;
       }
       while (i<=lights);
    }else{
-      $('.linearWatch ul:nth-child(' + digit + ') li').removeClass('active');
+      $(".linearWatch ul:nth-child(" + digit + ") li").removeClass("active");
    }
 }
