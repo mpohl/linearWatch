@@ -21,7 +21,7 @@ function lightsOn(digit, lights) {
    if (lights) {
       var i = 1;
       do {
-         $el = $('.linearWatch ul:nth-child(' + digit + ') li:nth-child(' + i + ')');
+         var $el = $('.linearWatch ul:nth-child(' + digit + ') li:nth-child(' + i + ')');
          $el.addClass('active');
          i++;
       }
