@@ -17,6 +17,11 @@ function update() {
    while(i<arrTime.length);
 }
 
+/**
+ * 
+ * @param digit
+ * @param lights
+ */
 function lightsOn(digit, lights) {
    if (lights) {
       var i = 1;
